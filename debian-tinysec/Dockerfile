@@ -1,6 +1,6 @@
 FROM debian
 
-MAINTANER @rooneymcnibnug
+MAINTAINER @rooneymcnibnug
 
 RUN apt-get update
 RUN apt-get upgrade -y
