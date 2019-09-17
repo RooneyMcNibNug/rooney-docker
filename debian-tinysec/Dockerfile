@@ -5,8 +5,9 @@ MAINTAINER @rooneymcnibnug
 RUN apt-get update
 RUN apt-get upgrade -y
 RUN apt-get install -y \
-    git nmap tshark tcpdump hashcat-data hashcat sqlmap bbqsql tor aircrack-ng python3 python3-pip 
+    git nmap tcpdump hashcat-data hashcat sqlmap bbqsql tor aircrack-ng python3 python3-pip 
 
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y tshark #as to not stop for y/n prompt
 RUN git clone https://github.com/aboul3la/Sublist3r
 RUN pip install argparse dnspython requests #sublist3r requirements
 
