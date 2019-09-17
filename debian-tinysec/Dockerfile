@@ -9,7 +9,7 @@ RUN apt-get install -y \
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y tshark #as to not stop for y/n prompt
 RUN git clone https://github.com/aboul3la/Sublist3r
-RUN pip install argparse dnspython requests #sublist3r requirements
+RUN pip3 install argparse dnspython requests #sublist3r requirements
 
 ADD https://labs.portcullis.co.uk/download/enum4linux-0.8.9.tar.gz / #enum4linux
 ADD https://sourceforge.net/projects/uniscan/files/6.2/uniscan6.2.tar.gz #uniscan
