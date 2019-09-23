@@ -11,10 +11,10 @@ Relevant security/pentest tools included:
 + [aircrack](https://www.aircrack-ng.org/) for WiFi penetration testing
 + [nmap](https://nmap.org/) for network scanning
 + [tcpdump](https://www.tcpdump.org/) for packet sniffing/analyzing
-+ [hash-identifier](https://tools.kali.org/password-attacks/hash-identifier) for identifying password has types
++ [hash-identifier](https://tools.kali.org/password-attacks/hash-identifier) for identifying password hash types
 + [hashcat](https://hashcat.net/hashcat/) for password cracking/attack tests
 + [sqlmap](http://sqlmap.org/) and [bbqsql](https://github.com/Neohapsis/bbqsql/) for detecting SQL injection flaws
 + [dumpzilla](http://www.dumpzilla.org/Manual_dumpzilla_en.txt) for browser forensics
 + [tor](https://2019.www.torproject.org/docs/tor-manual.html.en) for anonymity
 
-To build, just run ```docker build -t tinysec .``` in ```~/debian-tinysec```.
+To build, just run ```docker build -t tinysec .``` in ```~/debian-tinysec```
