@@ -1,0 +1,9 @@
+version: '3'
+services:
+ ocr:
+  image: jbarlow83/ocrmypdf:latest
+  container_name: ocr
+  volumes:
+   - /mnt/in:/in
+   - /mnt/out:/out
+  restart: always
